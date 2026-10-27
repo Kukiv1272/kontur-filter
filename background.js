@@ -229,7 +229,6 @@ async function loadWords(force = false) {
         });
 
         console.log('[Контур-фильтр] Загружено слов:', cachedWords.length);
-        console.log('[Контур-фильтр] Слово 1:', cachedWords.includes('1'));
 
         return cachedWords;
     })();
